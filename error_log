@@ -1,0 +1,11 @@
+[14-Jan-2013 16:39:12] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/hikaruvn/public_html/magento/app/design/frontend/base/default/template/customer/form/mini.login.phtml on line 43
+[14-Jan-2013 16:39:15] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/hikaruvn/public_html/magento/app/design/frontend/base/default/template/customer/form/mini.login.phtml on line 43
+[14-Jan-2013 16:39:26] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/hikaruvn/public_html/magento/app/design/frontend/base/default/template/customer/form/mini.login.phtml on line 43
+[14-Jan-2013 17:08:51] PHP Parse error:  syntax error, unexpected '?' in /home/hikaruvn/public_html/magento/app/design/frontend/base/default/template/customer/form/mini.login.phtml on line 38
+[15-Jan-2013 19:00:42] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/hikaruvn/public_html/magento/app/design/frontend/default/sm_glasses/template/catalog/product/bestseller.phtml on line 67
+[15-Jan-2013 19:02:22] PHP Parse error:  syntax error, unexpected T_ENDFOREACH in /home/hikaruvn/public_html/magento/app/design/frontend/default/sm_glasses/template/catalog/product/bestseller.phtml on line 67
+[21-Jan-2013 18:10:41] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/hikaruvn/public_html/magento/app/design/frontend/default/sm_glasses/template/catalog/product/bestseller.phtml on line 57
+[21-Jan-2013 18:11:46] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ';' in /home/hikaruvn/public_html/magento/app/design/frontend/default/sm_glasses/template/catalog/product/bestseller.phtml on line 57
+[27-Jan-2013 12:31:48] PHP Fatal error:  Call to a member function getSummaryHtml() on a non-object in /home/hikaruvn/public_html/magento/app/design/frontend/default/sm_glasses/template/catalog/product/bestseller.phtml on line 59
+[29-Jan-2013 16:58:11] PHP Fatal error:  Call to a member function getSummaryHtml() on a non-object in /home/hikaruvn/public_html/magento/app/design/frontend/default/sm_glasses/template/smartaddons/basicproducts/feature.phtml on line 58
+[29-Jan-2013 20:07:20] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/hikaruvn/public_html/magento/lib/Zend/Db/Statement/Pdo.php on line 228
