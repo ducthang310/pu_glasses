@@ -9,8 +9,8 @@
 ?>
 
 <div class="block-feature-products block">
-	<div class="block-title"><h3 style=""><?php echo $this->__('Feature Products'); ?></h3></div>
-	<div class="des-block">Forem ipsum dolor sit amet consectetur adipiscing elit</div>
+	<div class="block-title"><h3 style=""><?php echo $this->__($this->block_title); ?></h3></div>
+	<div class="des-block">Kính thuốc cao cấp, kiểu dáng đẹp, bảo vệ an toàn tuyệt đối cho đôi mắt của bạn</div>
     <div class="block-content">
     	<?php if(!$_productCollection->count()): ?>
         	<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
@@ -98,7 +98,7 @@
 											</div>
 										<?php endif; ?>	
 											<?php if ($this->product_price_disp): ?>
-												<div class="price-block"><?php echo '<span>Price: </span>'.$this->getPriceHtml($_product, true, false) ?></div>
+												<div class="price-block"><?php echo '<span>' . $this->__('Price:') . '</span>' . $this->getPriceHtml($_product, true, false) ?></div>
 											<?php endif; ?>                                 			
 									<?php
 									if( $this->product_rating_summary ){

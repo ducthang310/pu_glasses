@@ -50,7 +50,7 @@ $_productCollection = Mage::getResourceModel('reports/product_collection')
 <?php $productUrl =  $_product->getProductUrl() ?>
 <div class="items items_<?php echo $counter ?> clearfix <?php if($counter == $totalPerPage){ ?>last<?php } ?>">
 	<div class="bestsale-img">
-	<a href="<?php echo $productUrl ?>" title="View <?php echo $_product->name ?>">
+	<a href="<?php echo $productUrl ?>" title="<?php echo $_product->name ?>">
 		<img src="<?php echo $this->helper('catalog/image')->init($_product, 'image')->resize(107,78); ?>" width="107" height="78" alt="Product image"  />
 	</a>
 
@@ -63,7 +63,7 @@ $_productCollection = Mage::getResourceModel('reports/product_collection')
 		 		echo $this->_reviewsHelperBlock->getSummaryHtml($product, false, false);
 			else:
 		?>
-			<a class="add-your-review" href="<?php echo Mage::getBaseUrl(); ?>/review/product/list/id/<?php echo $_product->getId(); ?>/#review-form">Add Review</a>
+			<a class="add-your-review" href="<?php echo Mage::getBaseUrl(); ?>/review/product/list/id/<?php echo $_product->getId(); ?>/#review-form"><?php echo $this->__('Add Review') ?></a>
 		<?php endif; ?>
 		
 	</div>

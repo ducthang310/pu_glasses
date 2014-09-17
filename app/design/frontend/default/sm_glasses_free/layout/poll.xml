@@ -32,32 +32,32 @@
 Default layout, loads most of the pages
 -->
 
-    <default>
+    <!--<default>-->
 
-        <!-- Mage_Poll -->
-        <reference name="left">
-            <block type="poll/activePoll" name="right.poll">
-                <action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>
-                <action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>
-            </block>
-        </reference>
-		<reference name="right">
-            <!--<block type="poll/activePoll" name="right.poll" before="tags_popular" >
-                <action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>
-                <action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>
-            </block>-->
-        </reference>
+        <!--&lt;!&ndash; Mage_Poll &ndash;&gt;-->
+        <!--<reference name="left">-->
+            <!--<block type="poll/activePoll" name="right.poll">-->
+                <!--<action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>-->
+                <!--<action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>-->
+            <!--</block>-->
+        <!--</reference>-->
+		<!--<reference name="right">-->
+            <!--&lt;!&ndash;<block type="poll/activePoll" name="right.poll" before="tags_popular" >-->
+                <!--<action method="setPollTemplate"><template>poll/active.phtml</template><type>poll</type></action>-->
+                <!--<action method="setPollTemplate"><template>poll/result.phtml</template><type>results</type></action>-->
+            <!--</block>&ndash;&gt;-->
+        <!--</reference>-->
 
-    </default>
+    <!--</default>-->
 
-<!--
-Customer account home dashboard layout
--->
+<!--&lt;!&ndash;-->
+<!--Customer account home dashboard layout-->
+<!--&ndash;&gt;-->
 
-    <customer_account_index>
-        <reference name="right">
-            <action method="unsetChild"><name>right.poll</name></action>
-        </reference>
-    </customer_account_index>
+    <!--<customer_account_index>-->
+        <!--<reference name="right">-->
+            <!--<action method="unsetChild"><name>right.poll</name></action>-->
+        <!--</reference>-->
+    <!--</customer_account_index>-->
 
 </layout>

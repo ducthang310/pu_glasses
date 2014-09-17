@@ -51,7 +51,7 @@ global $var_yttheme;
 				<div class="row">
 					<div class="header-logomenu span3"  data-normal="span4" data-tablet="span4" data-stablet="span4" >
 						<h1 id="logo" class="font1">
-							<a href="<?php echo $this->getUrl('') ?>"><span>Lorem ipsum dolor sit met consectetuer</span></a>
+							<a href="<?php echo $this->getUrl('') ?>"><span>Đôi Mắt Là Cửa Sổ Của Tâm Hồn</span></a>
 							<div class="plus-button">&nbsp;</div>
 						</h1>
 						<div class="mega-menu" style="display:none">
@@ -63,7 +63,7 @@ global $var_yttheme;
 									} 
 									?>
 							<div class="social">
-								<h4>Social With Us </h4>
+								<h4><?php echo $this->__('Social With Us ')?></h4>
 								<div class="social-items">
 									<ul>
 										<li class="facebook"> <a href="#"> facebook </a></li>
@@ -88,7 +88,7 @@ global $var_yttheme;
 									<?php if(!$this->helper('customer')->isLoggedIn() ): ?> 
 									<ul class="li-add">	
 										<li class="last item-li4">									
-											<a title="Log In" href="javascript:void(0)">Log In</a>
+											<a title="<?php echo $this->__('Log In')?>" href="javascript:void(0)"><?php echo $this->__('Log In')?></a>
 											<div class="login-quick" style="display:none">
 												<?php echo $this->getChildHtml('customer_form_mini_login') ?>
 											</div>

@@ -173,7 +173,7 @@ if ( $var_yttheme->getParam("menustyle", 'css') == "css" ) {
 				<h4 class="no-display"><?php echo $this->__('Category Navigation:') ?></h4>
 				<ul id="nav" class="clearfix">
     				<li <?php echo $homecls;?>>
-    					<a <?php echo $homecls;?> href="<?php echo $this->getUrl('') ?>" title="Home"><span>Home</span></a>
+    					<a <?php echo $homecls;?> href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->__('Home')?>"><span><?php echo $this->__('Home')?></span></a>
     				</li>
     				<?php foreach ($this->getStoreCategories() as $_category): ?>
     					<?php echo $this->drawItem($_category) ?>
